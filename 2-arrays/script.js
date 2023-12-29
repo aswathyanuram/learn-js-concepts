@@ -81,6 +81,7 @@ let emptyArr = [];
 let newArr = [1, 2, 3, 4];
 console.log(newArr[0]); //To access first element
 console.log(newArr[newArr.length - 1]); //To access last element
+console.log(newArr[-1]); //Another method to get the last element of the array
 
 ///////////////////////////////////////////////////////////////////
 //3.How to add a element to end of an Array
