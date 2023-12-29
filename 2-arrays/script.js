@@ -139,7 +139,7 @@ let newArr9 = [1, 2];
 console.log(newArr9); //This will print [1,2]
 
 //Now I can use forEach on the array to do some logic on each item
-//Please not we use forEach only to do something on each item of an array
+//Please note we use forEach only to do something on each item of an array
 let newArr10 = newArr9.forEach((item, index) => {
   console.log(`${item} is at INDEX ${index}`);
 });
@@ -169,7 +169,7 @@ let newArr15 = newArr12.map((item, index) => ({ value: item }));
 //[{ value: 1 }, { value: 2 }];
 
 ///////////////////////////////////////////////////////////////////
-//10. What is difference between FILTER and FIND method in Array
+//10. What is difference between FILTER and FIND and FINDALL method in Array
 let newArr16 = [1, 2, 3, 4];
 
 //Filter method is used to create a new array based on some condition to filter the existing array
