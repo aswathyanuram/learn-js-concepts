@@ -120,3 +120,13 @@ console.log(typeof bool10); //Boolean
 console.log(name10 instanceof String); //true
 console.log(num10 instanceof Number); //true
 console.log(bool10 instanceof Boolean); //true
+
+//7.Bitwise Operators
+//They are used to manipulate bit values
+//& - AND
+//| - OR
+//~ - NOT
+//^ - XOR
+//<< - Left Shift
+//>> - Right Shift
+//>>> - Unsigned Right Shift
