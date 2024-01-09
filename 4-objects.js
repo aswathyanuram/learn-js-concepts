@@ -77,8 +77,8 @@ const person5 = {
 //NOTE - THIS keyword will refer to the object in which the function is present
 //NOTE - You need to provide correct keyword
 
-person5.fullName1; //Probably throw an ERROR saying firstName and lastName is not defined
-person5.fullName2; //John Doe
+person5.fullName1(); //Probably throw an ERROR saying firstName and lastName is not defined
+person5.fullName2(); //John Doe
 
 //Many meanings of THIS
 //Inside an object, THIS will refer to the object itself
