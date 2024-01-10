@@ -68,7 +68,10 @@ let name9 = new String("Jeeva"); //String Class is used to contruct a String Obj
 
 console.log(name8.toUpperCase()); //Where did toUpperCase() method come from?
 //toUpperCase() is a method available in the String CLASS
-//We are able to call it because in the background, when saying let name8 = "Jeeva"
-//It is constructed with String Class and this name8 object has access to all methods inside that class
-//Because the object we create inherits all methods from String Class
-//This is applicate when using Number,Boolean,Object etc
+
+/*
+We are able to call it because in the background, when saying let name8 = "Jeeva"
+It is constructed with String Class and this name8 object has access to all methods inside that class
+Because the object we create inherits all methods from String Class
+This is applicate when using Number,Boolean,Object etc
+*/
