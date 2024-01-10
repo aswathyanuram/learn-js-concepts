@@ -27,6 +27,10 @@ document.addEventListener("DOMContentLoaded", function () {
 //onmouseout - Name of event is mouseout
 //onkeydown  - Name of event is keydown
 
+//Modern syntax for Mouse Events are
+//mouseenter
+//mouseleave
+
 //How EVENTS are handled in JS Example in script.js
 
 function clickHappened() {
@@ -51,3 +55,29 @@ container2.addEventListener("click", () => {
 //1.We make sure that all fields are not empty
 //We can do this by setting a onchange listener on email and password inputs and for every change,
 //We can do the validation
+
+//How EVENTS are handled in ReactJS
+//Example Box Component
+export default function Box() {
+  const [color, setColor] = useState("#333");
+
+  const onMouseEnter = () => {
+    console.log("MOUSE ENTER");
+    setColor("black");
+  };
+
+  const onMouseLeave = () => {
+    console.log("MOUSE LEAVE");
+    setColor("#333");
+  };
+
+  return (
+    <div
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
+      style={{ background: color }}
+    >
+      CONTAINER
+    </div>
+  );
+}
