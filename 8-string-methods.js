@@ -86,3 +86,40 @@ text = text.replaceAll(/cats/g, "dogs");
 let text10 = "A B C";
 let arr1 = text10.split(","); //["A B C"]
 let arr2 = text10.split(" "); //["A","B","C"]
+
+//Searching in a String
+//indexOf() - This will return the index of given search parameter from first
+let data11 = "Hello World!";
+let index1 = data11.indexOf("Hello"); //0
+
+//lastIndexOf() - This will return the index of given search parameter from last
+let data12 = "Hello World Hello";
+let index2 = data12.indexOf("Hello"); //12
+
+//search() - This will search for a given string
+//This can also take Regular Expressions
+let text = "Please locate where 'locate' occurs!";
+text.search("locate"); //Normal Search
+text.search(/locate/); //Regular Expression
+text.search(/locate/g); //Regular Expression
+text.search(/locate/gi); //Regular Expression
+
+//match() - This is used to search for a list of matches
+let text12 = "The rain in SPAIN stays mainly in the plain";
+text12.match("ain"); //This will give index of first match
+text12.match(/ain/); //This will give index of first match
+text12.matchAll("ain"); //This will give list of matches
+text12.matchAll(/ain/g); //This will give list of matches, remember to pass g
+
+//Simple Search Check
+let text13 = "Hello world, welcome to the universe.";
+text13.includes("world"); //true
+text13.includes("World"); //false - NOTE: Case SENSITIVE
+
+//Other methods
+let text14 = "Hello world, welcome to the universe.";
+text14.startsWith("Hello"); //true
+text14.startsWith("world"); //false
+let text15 = "John Doe";
+text15.endsWith("Doe"); //true
+text15.endsWith("John"); //false
