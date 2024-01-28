@@ -1,0 +1,101 @@
+body {
+  background-color: #f3f4f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+#phone {
+  width: 350px;
+  height: 600px;
+  background-color: #ede7dd;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+#_1 {
+  height: 20px;
+  width: 100%;
+  background-color: #054b44;
+}
+
+#_2 {
+  height: 50px;
+  width: 100%;
+  background-color: #065d53;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#_21 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#_211 {
+  width: 20px;
+  height: 20px;
+  background-image: url(https://icons8.com/icon/99766/arrow-pointing-left);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#_212 {
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#_213 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#_22 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#_221 {
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#_222 {
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#_223 {
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#_3 {
+  flex: 1;
+  width: 100%;
+  background-color: #eee8de;
+}
+
+#_4 {
+  height: 50px;
+  width: 100%;
+  background-color: #eee8de;
+}

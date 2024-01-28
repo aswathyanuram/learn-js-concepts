@@ -75,3 +75,10 @@ It is constructed with String Class and this name8 object has access to all meth
 Because the object we create inherits all methods from String Class
 This is applicate when using Number,Boolean,Object etc
 */
+
+//String Temlates
+//Using this we can create dynamic keys
+let firstName = "John";
+let lastName = "Doe";
+
+let text11 = `Welcome ${firstName}, ${lastName}!`;
